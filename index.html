@@ -12,30 +12,6 @@
 <link rel="apple-touch-icon" sizes="114×114" href="images/Icon@2.png">
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-<script>
-var title="坤水晶";
-var description="";
-
-var shareurl="#";
-var url=encodeURIComponent(location.href);
-function share(typ){
-    title_ec=encodeURIComponent(title);
-    description_ec=encodeURIComponent(description);
-    
-    if(typ=="google"){
-        shareurl="https://plus.google.com/share?url="+url; 
-    }
-    if(typ=="fb"){
-        shareurl="http://www.facebook.com/share.php?u="+url+"&title="+title_ec+description_ec; 
-    }
-    if(typ=="twitter"){
-        shareurl="http://twitter.com/home/?status=".concat(encodeURIComponent(title)) .concat(' ') .concat(encodeURIComponent(location.href));
-    }
-	
-    window.open(shareurl);
-}
-</script>
-
 <!-- 下拉選單無使用 -->
 <script type="text/javascript" src="js/jquery.backgroundpos.js"></script>
 

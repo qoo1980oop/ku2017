@@ -14,7 +14,7 @@
 
     /*重置頁面基本字型大小及行高*/
     body,td,th {
-      /*font-family:"微軟正黑體", "Myriad Pro",Myriad Set Pro, Lucida Grande, Helvetica,Arial,Verdana, Heiti TC , sans-serif;*/
+      font-family:"微軟正黑體", "Myriad Pro",Myriad Set Pro, Lucida Grande, Helvetica,Arial,Verdana, Heiti TC , sans-serif;
 	  letter-spacing:0.03em;
       font-size: 100%;
       line-height: 1;

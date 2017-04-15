@@ -1,7 +1,7 @@
 body {
 	padding-bottom:1000px
 }
-.container { width:1500px; margin:0 auto;}
+.container { width:1200px; margin:0 auto; margin-top: 120px;}
 .gridder {
 	margin:0px;
 	padding:0px;
@@ -26,7 +26,7 @@ body {
 }
 .gridder-list {
 	/*min-width:15.83333%*/
-	width:371px;
+	width:298px;
 }
 .gridder-list:nth-child(n) {
 	margin-bottom:0%;
@@ -37,9 +37,10 @@ body {
 	margin-bottom:0*/
 }
 .gridder-show {
-	padding:20px;
+	padding:0px;
 	background:#1a1a1a;
-	margin-bottom:1%
+	margin-bottom:1%;
+	text-align: center;
 }
 .gridder-navigation .gridder-nav.disabled {
 	opacity:.5
@@ -59,11 +60,7 @@ body {
     position: absolute;
     left: 0px; /* change this value to one that suits you */
     top: 0px; /* change this value to one that suits you */
-}
-.pt_image {
-    position:relative;
-    display:inline-block;
-    margin:0px;
+	z-index: 99999;
 }
 .pt_overlay {
     display:none;
@@ -74,14 +71,15 @@ body {
     /*background:rgba(0,0,0,.5);*/
     /*border:10px solid red;*/
     position:absolute;
-    top:310px;
+	padding-top: 248px;
+    
     left:0;
     display:inline-block;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
     text-align:center;
-    padding:0px;
+
     font-size:30px;
 	color: #cf9c00;
 	z-index: 99999;
@@ -97,7 +95,7 @@ body {
 	opacity:1
 }
 /*# sourceMappingURL=demo.css.map */
-.pt_info_wap { width: 80%; margin: 0 auto 180px auto;}
+.pt_info_wap { width: 66%; margin: 0 auto 180px auto;}
 .pt_info table {
 	border:none !important;
 	border-collapse:collapse;
@@ -116,18 +114,18 @@ body {
 	color:#fff;
 	text-align: left;
 	vertical-align: top;
-	font-size:20px;
-	line-height: 26px;
+	font-size:18px;
+	line-height: 28px;
 }
 .pt_info_text { margin-bottom: 120px; display: block; position: relative; line-height: 30px;}
 .pt_info_text2 { text-align: right!important; color: #b5b5b5!important; }
 
 .pt_info table h1{
-	font-size:30px;
-	line-height: 46px;
+	font-size:28px;
+	line-height: 40px;
 }
 .pt_info table h2{
-	font-size:24px;
+	font-size:20px;
 	line-height: 20px;
 }
 .pt_info th {width: 30%;}

@@ -12,30 +12,6 @@
 <link rel="apple-touch-icon" sizes="114×114" href="images/Icon@2.png">
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-<script>
-var title="坤水晶";
-var description="";
-
-var shareurl="#";
-var url=encodeURIComponent(location.href);
-function share(typ){
-    title_ec=encodeURIComponent(title);
-    description_ec=encodeURIComponent(description);
-    
-    if(typ=="google"){
-        shareurl="https://plus.google.com/share?url="+url; 
-    }
-    if(typ=="fb"){
-        shareurl="http://www.facebook.com/share.php?u="+url+"&title="+title_ec+description_ec; 
-    }
-    if(typ=="twitter"){
-        shareurl="http://twitter.com/home/?status=".concat(encodeURIComponent(title)) .concat(' ') .concat(encodeURIComponent(location.href));
-    }
-	
-    window.open(shareurl);
-}
-</script>
-
 <!-- 下拉選單無使用 -->
 <script type="text/javascript" src="js/jquery.backgroundpos.js"></script>
 
@@ -96,11 +72,6 @@ $(function() {
 <!--jquery.gridder-->
 <link href="css/jquery.gridder.min.css" rel="stylesheet">
 <link href="css/product.css" rel="stylesheet">
-
-
-<style>
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
-</style>
     
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
@@ -267,10 +238,9 @@ $(function(){
 
 <!--banner開始-->
 <div class="master_slider">
-<ul class="bxslider_main">
+<ul class="">
 <!-- bg-scale -->
-<li class="" style="background-image:url(banner/170122_banner.jpg)"></li>
-<li class="" style="background-image:url(banner/170123_banner.jpg)"></li>
+<li class="" style="background-image:url(banner/product_banner.jpg)"></li>
 <!-- bg-scale -->
 </ul>
 </div>
@@ -291,66 +261,33 @@ $(function(){
 <div class="container">
 
 <ul class="gridder">
-
-
-<li class="gridder-list" data-griddercontent="#gridder-content-1">
-<div class="pt_image">
-<img src="images/pt_img_01.png" class="img-responsive"/>
-<div class="pt_overlay">KC-01008<br>｜愜意｜</div>
-</div>
-</li>
-
-
-<li class="gridder-list" data-griddercontent="#gridder-content-2">
-<div class="pt_image">
-<img src="images/pt_img_02.png" class="img-responsive"/>
-<div class="pt_overlay">KC-01008<br>｜愜意｜</div>
-</div>
-</li>
-
-<li class="gridder-list" data-griddercontent="#gridder-content-3">
-<div class="pt_image">
-<img src="images/pt_img_03.png" class="img-responsive"/>
-<div class="pt_overlay">KC-01008<br>｜愜意｜</div>
-</div>
-</li>
-
-<li class="gridder-list" data-griddercontent="#gridder-content-4">
-<div class="pt_image">
-<img src="images/pt_img_04.png" class="img-responsive"/>
-<div class="pt_overlay">KC-01008<br>｜愜意｜</div>
-</div>
-</li>
-
-<li class="gridder-list" data-griddercontent="#gridder-content-5">
-<div class="pt_image">
-<img src="images/pt_img_04.png" class="img-responsive"/>
-<div class="pt_overlay">KC-01008<br>｜愜意｜</div>
-</div>
-</li>
-   
-<li class="gridder-list" data-griddercontent="#gridder-content-6">
-<div class="pt_image">
-<img src="images/pt_img_04.png" class="img-responsive"/>
-<div class="pt_overlay">KC-01008<br>｜愜意｜</div>
-</div>
-</li>
-   
-<li class="gridder-list" data-griddercontent="#gridder-content-7">
-<div class="pt_image">
-<img src="images/pt_img_04.png" class="img-responsive"/>
-<div class="pt_overlay">KC-01008<br>｜愜意｜</div>
-</div>
-</li>
-
-<li class="gridder-list" data-griddercontent="#gridder-content-8">
-<div class="pt_image">
-<img src="images/pt_img_04.png" class="img-responsive"/>
-<div class="pt_overlay">KC-01008<br>｜愜意｜</div>
-</div>
-</li>
-
-
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_01.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_02.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_03.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_04.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_05.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_06.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_07.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_08.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_09.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_10.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_11.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_12.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_13.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_14.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_15.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_16.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_17.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_18.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_19.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_20.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_21.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_22.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_23.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_24.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_25.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_26.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
+<li class="gridder-list" data-griddercontent="#gridder-content-1"><img src="images/pt_img_27.png" class="img-responsive"/><div class="pt_overlay">KC-01008<br>｜愜意｜</div></li>
 </ul>
 
 
@@ -382,15 +319,55 @@ With a broad mind, you will feel free and easy, elegant and content. Open up you
 </div>
 </div>
 
+<div id="gridder-content-2" class="gridder-content">
+<div class="row">
+<div class="col-sm-6">
+<img src="images/pt_img_04_b.png" class="img-responsive" />
+</div>
+<div class="col-sm-6">
 
-
-
-
-
-
+<div class="pt_info_wap">
+<div class="pt_info">
+<table width="100%" border="1">
+<tr>
+<th><h1>｜愜意｜<br>
+Contentment</h1></td>
+<td class="pt_info_text">寬心自在 風雅愜意 將心舒敞  悠游天地 即使只是一方小池塘 皆能無入而不自得。<p>
+With a broad mind, you will feel free and easy, elegant and content. Open up your mind, to roam in the heaven and earth.Even if it is a small pond,you will feel just satisfied.</td>
+</tr>
+<tr>
+<th><h2>KC-01008</h2></td>
+<td class="pt_info_text2">L10*W10*H2.5 cm</td>
+</tr>
+</table>
 </div>
 </div>
 
+</div>
+</div>
+</div>
+<div id="gridder-content-2" class="gridder-content"></div>
+<div id="gridder-content-3" class="gridder-content"></div>
+<div id="gridder-content-4" class="gridder-content"></div>
+<div id="gridder-content-5" class="gridder-content"></div>
+<div id="gridder-content-6" class="gridder-content"></div>
+<div id="gridder-content-7" class="gridder-content"></div>
+<div id="gridder-content-8" class="gridder-content"></div>
+
+
+</div>
+
+
+<div class="life_bg">
+<div class="stage3 order7">
+<div class="crystal"><img src="images/crystal.png">
+<h2>坤水晶以對琉璃的熱愛為起點，堅持20年至品牌形象的穩固建立，藉著是對品質與在地的堅持。
+2013年更開設了獨樹一幟的松菸文創園區玻璃工坊旗艦店，
+成為台灣極具代表性的玻璃吹製體驗及各國觀光遊客首選。</h2>
+<p>To the love of glass as a starting point, adhere to 20 years to build a solid brand image, by virtue of the quality and the insistence on the ground. In 2013, it opened a unique flagship store of the Songyan Glass Culture and Crafts Park. It became the most representative glass blowing experience in Taiwan and the first choice for tourists from all over the world.</p>
+</div>
+</div>
+</div>
 
 
 
