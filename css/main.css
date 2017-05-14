@@ -97,13 +97,13 @@ body{
 
 /* 展開選單  */
 .menu_content {
-	width: 1140px;
+	width: 760px;
 	height: 340px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	margin-top: -200px;
-	margin-left: -570px;
+	margin-left: -380px;
 }
 .menu_content .link1 {
 	height:206;
