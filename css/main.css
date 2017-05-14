@@ -4,7 +4,7 @@
 body{
 }
 .icon_home {
-	right:16%;
+	right:16.5%;
 	z-index: 99999;
 	width:40px;
 	position:absolute;
@@ -24,7 +24,7 @@ body{
 	cursor:pointer;
 }
 .menu {
-	right:8%;
+	right:7%;
 	z-index: 50;
 	width:40px;
 	position:absolute;
@@ -64,13 +64,14 @@ body{
 	line-height:0.5;
 }
 .menu_close {
-	right:8%;
+	right:7%;
+	z-index: 50;
+	width:40px;
 	position:absolute;
-	top:50px;
+	top:55px;
+	font-size:0.8em;
+	color:#fff;
 	cursor:pointer;
-	height:18px;
-	line-height:0.5;
-	margin-top: 10px;
 }
 .menu_close > span {margin-top: 4px;}
 .menu_close .circle {

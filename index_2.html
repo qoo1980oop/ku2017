@@ -1,0 +1,432 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>《坤水晶》</title>
+<meta charset="utf-8">
+<meta name="keywords" content="坤水晶">
+<meta name="description" content="">
+
+<!-- 加入最愛 -->
+<link rel="apple-touch-icon" href="images/Icon.png">
+<link rel="apple-touch-icon" sizes="72×72" href="images/Icon-72.png">
+<link rel="apple-touch-icon" sizes="114×114" href="images/Icon@2.png">
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+<!-- 下拉選單無使用 -->
+<script type="text/javascript" src="js/jquery.backgroundpos.js"></script>
+
+<!-- js程式 -->
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+<!-- 動態 -->
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/pic.js"></script>
+
+<script type='text/javascript' src='js/jquery.waypoints.js'></script>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+
+<!-- 上方BN輪播 -->
+<script src="js/jquery.bxslider.min.js"></script>
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<script type="text/javascript">
+$(document).ready(function($){
+    var timers;
+    $(window).load(function(){  
+    //上方BN開始
+	slider2 = $('.bxslider_main').bxSlider({
+	     pager: true,
+		 auto:true,
+  		 pause:3000,
+/*  	 mode:'fade',*/
+  		 mode:'fade',		 
+  		 speed:1000,
+  		 infiniteLoop:true,
+         onSliderLoad:function(currentIndex){ 
+             //$("#index_wrapper #master .master_slider li").eq(0).addClass("active");
+                    $(".master_slider li").eq(0).addClass("active");
+         },
+  		 onSlideBefore:function($slideElement, oldIndex, newIndex){ 
+                // clearTimeout(timers);
+                timers=setTimeout(function(){
+                    $(".master_slider li").removeClass("active");
+                    $slideElement.addClass("active");
+                }, 50);
+         }
+  	 });
+    //上方BN結束
+   });
+});
+</script>
+<!--視差js-->
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+<script type="text/javascript">
+$(function() {	
+				//交錯
+			//var s = skrollr.init();
+			
+});
+</script>
+
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+</style>
+    
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/footer.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="index_wrapper">
+	<div id="master" class="fadeIn animated">
+
+<script type="text/javascript">
+	  
+$(function(){
+	//判斷IE
+	var broVer = '';
+    if(navigator.userAgent.indexOf("MSIE")>0){
+        if(navigator.userAgent.indexOf("MSIE 6.0")>0){
+			broVer = 'ie6';
+        }
+		if(navigator.userAgent.indexOf("MSIE 7.0")>0){
+			broVer = 'ie7';
+        }
+        if(navigator.userAgent.indexOf("MSIE 8.0")>0){
+			broVer = 'ie8';
+        }
+        if(navigator.userAgent.indexOf("MSIE 9.0")>0){
+			broVer = 'ie9';
+        }
+		if(navigator.userAgent.indexOf("MSIE 10.0")>0){
+			broVer = 'ie10';
+        }
+		//IE10包含以下
+		if(broVer!=''){
+			//alert(broVer);
+			window.location.href='browser.php';
+		}
+    }
+})
+</script>
+
+
+<div class="icon_home">
+<div class="link _menu_hover" style="width:42px; height:42px;">
+  <a href="index.html" target="_parent"><img src="images/icon_home.png"></a>
+  <img src="images/icon_home.png">
+</div>
+</div>
+
+<div class="icon_fb">
+<div class="link _menu_hover" style="width:42px; height:42px;">
+  <a href="https://zh-tw.facebook.com/Kun.com.tw/" target="_blank"><img src="images/icon_fb.png"></a>
+  <img src="images/icon_fb.png">
+</div>
+</div>
+
+<!--nav開始-->
+<div id="navi">
+<div class="top_link">
+<div class="menu_logo"><img src="images/logo.png"></div>
+<div class="menu_info_tt">
+
+
+
+
+</div>
+</div>
+<div class="menu_open">
+<div class="menu_close">
+<img src="images/icon_menu.png">
+</div>
+
+
+
+		
+<div class="menu_content">
+<a class="link1 menu_hover" href="product.html">
+<div class="menu_icon"><img src="images/btn_pt01.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt01_h.png"></div>
+</a>
+		
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt02.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt02_h.png"></div>
+</a>
+
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt03.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt03_h.png"></div>
+</a>
+		
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt04.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt04_h.png"></div>
+</a>
+		
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt05.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt05_h.png"></div>
+</a>
+		
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt06.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt06_h.png"></div>
+</a>
+
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt07.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt07_h.png"></div>
+</a>
+
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt08.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt08_h.png"></div>
+</a>
+
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt09.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt09_h.png"></div>
+</a>
+
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt10.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt10_h.png"></div>
+</a>
+
+<a class="link1 menu_hover" href="#">
+<div class="menu_icon"><img src="images/btn_pt11.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt11_h.png"></div>
+</a>
+
+<a class="link1 menu_hover" href="index.html">
+<div class="menu_icon"><img src="images/btn_pt12.png"></div>
+<div class="menu_icon_h"><img src="images/btn_pt12_h.png"></div>
+</a>
+
+	
+</div>
+</div>
+
+<div class="menu">
+<img src="images/icon_menu.png">
+</div>
+
+
+
+        
+<!--nav結束--></div>
+
+<!--banner開始-->
+<div class="master_slider">
+<ul class="bxslider_main">
+<!-- bg-scale -->
+<li class="" style="background-image:url(banner/170122_banner.jpg)"></li>
+<li class="" style="background-image:url(banner/170123_banner.jpg)"></li>
+<!-- bg-scale -->
+</ul>
+</div>
+<!--banner結束-->
+
+</div><!--nav結束-->
+
+    
+<div class="start">
+
+<div class="life_bg">
+<div class="title">
+<h1><img src="images/life_01.png"></h1>
+<p>
+坤水晶以對琉璃的熱愛為起點，堅持20年至品牌形象的穩固建立，憑藉著是對品質與在地的堅持。2013年更開設了獨樹一幟的松菸文創園區玻璃工坊旗艦店，成為台灣極具代表性的玻璃吹製體驗及各國觀光遊客首選。
+<br>
+To the love of glass as a starting point, adhere to 20 years to build a solid brand image, by virtue of the quality and the insistence on the ground. In 2013, it opened a unique flagship store of the Songyan Glass Culture and Crafts Park. It became the most representative glass blowing experience in Taiwan and the first choice for tourists from all over the world.
+</p>
+</div>
+</div>
+ 
+<div class="timeline_bg">
+<div class="timeline">
+<div class="line_dot"> <span><img src="images/home_dot_s.png" /></span> </div>
+<ul>
+<li class="event e0"></li>
+
+<li class="event e1">
+<div class="point p1">
+<div class="circle order1">
+<div class="circle_img"><img src="images/index/point01.png"></div>
+</div>
+<h2><img src="images/index/point01_t1.png"></h2>
+<p>
+在琉璃產業因成本而紛紛外移的考驗下，坤水晶仍秉持「根留台灣的理念，堅持創作、研發、生產100%MIT，再將品牌觸角延伸至國外。
+<br>
+In the glass industry because of the cost of the test have been relocated, still uphold the "root to stay in Taiwan's philosophy, adhere to the creation, research and development, production 100% MIT, and then extend the brand tentacles to foreign countries.
+</p>
+</div>
+</li>
+
+<li class="event e2">
+<div class="point p2">
+<div class="circle order1">
+<div class="circle_img"><img src="images/index/point02a.png"><img src="images/index/point02b.png"></div>
+</div>
+<h2><img src="images/index/point02_t1.png"></h2>
+<p>
+以傳統吹製玻璃技法，帶領體驗者使用不同工具塑型。將如同麥芽糖的玻璃膏吹製成型，了解玻璃容器的製成。
+<br>
+The traditional blown glass technique leads the experimenter to use different tools to mold. The glass paste was blown and shaped like a maltose to understand the glass container.
+</p>
+</div>
+</li>
+
+<li class="event e3">
+<div class="point p3">
+<div class="circle order1">
+<div class="circle_img"><img src="images/index/point03a.png"><img src="images/index/point03b.png"></div>
+</div>
+<h2><img src="images/index/point03_t1.png"></h2>
+<p>
+琉璃工法脫蠟鑄造需經繁複的製程才能展現出作品的精神樣貌，每一道程序更是以手工精雕細磨與高溫淬煉而成，每一項都是極高的技術與藝術表現。
+<br>
+Glasswork method Dewaxing casting process by the need to show the complexity of the work of the spirit of the appearance, each program is hand-carved fine grinding and high-temperature quenching and refining, each one is extremely high technology and artistic expression.
+</p>
+</div>
+</li>
+
+<li class="event e4">
+<div class="point p4">
+<div class="circle order1">
+<div class="circle_img"><img src="images/index/point04.png"></div>
+</div>
+<h2><img src="images/index/point04_t1.png"></h2>
+<p class="tt_center">
+坤水晶精選年度熱銷產品及送禮首選。
+<br>
+Featured annual top ten best-selling products and gifts.
+</p>
+</div>
+</li>
+
+<li class="event e5">
+<div class="point p5">
+<div class="circle order1">
+<div class="circle_img"><img src="images/index/point05.png"></div>
+</div>
+</div>
+</li>
+
+<li class="event e6">
+<div class="point p6">
+<h2><img src="images/index/point05_t1.png"></h2>
+<p>
+</p>
+</div>
+</li>
+
+
+</ul>
+
+</div>
+</div>
+</div>
+
+<div class="life_bg">
+<div class="stage3 order7">
+<div class="crystal"><img src="images/crystal.png">
+<h2>坤水晶以對琉璃的熱愛為起點，堅持20年至品牌形象的穩固建立，藉著是對品質與在地的堅持。
+2013年更開設了獨樹一幟的松菸文創園區玻璃工坊旗艦店，
+成為台灣極具代表性的玻璃吹製體驗及各國觀光遊客首選。</h2>
+<p>To the love of glass as a starting point, adhere to 20 years to build a solid brand image, by virtue of the quality and the insistence on the ground. In 2013, it opened a unique flagship store of the Songyan Glass Culture and Crafts Park. It became the most representative glass blowing experience in Taiwan and the first choice for tourists from all over the world.</p>
+</div>
+</div>
+</div>
+
+
+
+
+<!--FOOTER-->
+<div id="load"><img src="images/load.gif" /></div>
+
+<!--FOOTER開始-->
+<div class="footer">
+
+<div class="footer_wap">
+<div class="info">
+<div class="info_logo"><img src="images/logo.png"></div>
+<!--<div class="info_tt">Official Site</div>-->
+<div class="link _menu_hover" style="width:42px; height:42px;">
+  <a href="https://zh-tw.facebook.com/Kun.com.tw/" target="_blank"><img src="images/icon_fb.png"></a>
+  <img src="images/icon_fb.png">
+</div>
+
+
+<div class="clear"></div>
+</div>
+
+
+<div class="sitemap">
+<ul>
+
+<li>問題
+<ul>
+<li><a href="farm.php#link1">跟踪訂單</a></li>
+<li><a href="farm.php#link2">聯絡我們</a></li>
+</ul>
+</li>
+
+<li class="sitemap_topic"><a href="quality.php">品質認證</a></li>
+
+
+<li>購物中心
+<ul>
+<li><a href="shop.php">全類總覽</a></li>
+</ul>
+</li>
+
+<li>會員專區
+<ul>
+<li><a href="member_register.php">加入會員</a></li>
+<li><a href="member_login.php">會員登入</a></li>
+<li><a href="member_edit.php">修改會員資料</a></li>
+<li><a href="member_forgot.php">忘記密碼</a></li>
+<li><a href="member_order.php">訂單管理/查詢</a></li>
+</ul>
+</li>
+
+<li>購物說明
+<ul>
+<li><a href="info.php">付款方式</a></li>
+<li><a href="info.php">購物流程</a></li>
+<li><a href="info.php">物流配送</a></li>
+</ul>
+</li>
+
+</ul>
+<div class="clear"></div>
+</div>
+
+</div><!--FOOTER_WAP結束-->
+</div><!--FOOTER結束-->
+
+
+<div class="cr">
+<ul>
+<li><a href="about.php">通知</a></li>｜
+<li><a href="contact.php">隱私策略</a></li>｜
+<li><a href="about.php">詢價</a></li>｜
+<li><a href="contact.php">網站地圖</a></li>
+</ul>
+<small>坤水晶 版權所有©2017年INSIGHT INC。保留所有權利。</small>
+</div>
+
+<!--<div id="top" class="_menu_hover" style="height:174px;">
+<img src="images/top.png" width="79" height="174">
+<img src="images/top.png" width="79" height="174" style="opacity:0;">
+<div class="arrow"><img src="images/top_arrow.png" width="15" height="15"></div>
+</div>-->
+
+
+</body>
+</html>
