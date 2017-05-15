@@ -97,27 +97,26 @@ body{
 
 /* 展開選單  */
 .menu_content {
-	width: 760px;
+	width: 1060px;
 	height: 340px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	margin-top: -200px;
-	margin-left: -380px;
+	margin-left: -450px;
 }
 .menu_content .link1 {
-	height:206;
+	height:auto;
 	text-align:center;
 	display:table;
 	position:relative;
-	width:228;
+	width:228px;
 	float:left;
 	cursor:pointer;
 }
+
 .menu_content .link1 a {
 	display:block;
-	width:139px;
-	height:139px;
 	position:absolute;
 }
 .menu_content .link1 .color {
@@ -138,8 +137,8 @@ body{
 	color:#ffffff;
 	font-size:15px;
 	font-weight:bold;
-	left:20px;
-	margin-left:-20px;
+	left:-20px;
+	margin-left:42px;
 	margin-top:-15px;
 	width:40px;
 	text-align:center;
@@ -3129,3 +3128,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4ca57', end
  background-size: 100%;
 }
 }
+
