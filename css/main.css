@@ -101,16 +101,16 @@ body{
 	height: 340px;
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 40%;
 	margin-top: -200px;
-	margin-left: -450px;
+	margin-left: -520px;
 }
 .menu_content .link1 {
 	height:auto;
 	text-align:center;
 	display:table;
 	position:relative;
-	width:228px;
+	width:260px;
 	float:left;
 	cursor:pointer;
 }
